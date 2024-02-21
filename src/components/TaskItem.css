@@ -1,0 +1,57 @@
+.task-item-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+    
+  }
+  
+  .task-title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Optional: Add padding to the task content */
+  .task-content {
+    padding: 12px;
+  }
+  
+  /* Optional: Add a subtle border at the bottom of the task item */
+  .task-item-container {
+    border-bottom: 1px solid #eee;
+  }
+  
+  /* Optional: Add a transition effect for smoother hover animation */
+  .task-item-container {
+    transition: box-shadow 0.3s ease;
+  }
+  
+  /* Optional: Customize the handle icon (assuming you have a handle) */
+  .task-handle {
+    cursor: grab;
+    padding: 8px;
+    background-color: #ddd;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+  
+  /* Optional: Change the cursor to indicate draggable area */
+  .task-item-container {
+    cursor: grab;
+  }
+  
+  /* Optional: Add hover effect */
+  .task-item-container:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
