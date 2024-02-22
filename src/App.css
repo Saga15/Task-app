@@ -1,13 +1,73 @@
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  margin: 0;
+
+
+* {
+  box-sizing: border-box;
+  /* background-color: hsl(176, 8%, 61%); */
 }
 
-form {
-  width: 500px; /* Adjust the width as needed */
-  padding: 30px;
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+.App {
+  display: flex;
+  width:90%;
+  /* justify-content: space-around; */
+  justify-content: center;
+  margin: 30px;
+}
+li {
+  list-style: none;
+  margin-top: 1rem;
+}
+label {
+  margin-right: 2px;
+}
+input {
+  outline: none;
+}
+.column {
+  width: 20%;
+  background-color: red;
+  justify-content: space-between;
+}
+.btn {
+  margin: 2rem;
+  padding: 3px 8px;
+}
+
+.droppable-col {
+  width: 100%;
+  background-color: gray;
+  padding: 10px 10px 0 10px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  margin-bottom: 10px;
+  background-color: gray;
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 7px;
+  background-color: red;
+}
+
+.item.dragging {
+  background-color: coral;
+}
+.flex {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #18978f;
+  height: 100%;
+  /* border: 3px solid #1b2430; */
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  width: 400px;
+}
+.desc {
+  font-size: 10px;
+  background-color: #3d3c42;
+}
+p {
+  font-size: 10px;
 }

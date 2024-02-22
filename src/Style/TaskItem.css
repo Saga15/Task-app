@@ -7,7 +7,7 @@
   }
   
   .task-header {
-    background-color: #3498db;
+    background-color: #db3434;
     color: #fff;
     padding: 8px;
     border-top-left-radius: 8px;
@@ -55,3 +55,17 @@
   .task-item-container:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
+
+
+  /* TaskItem.css */
+
+.task-item-container {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s linear;
+}
+
+.task-item-container.show {
+  opacity: 1;
+  visibility: visible;
+}

@@ -11,7 +11,7 @@ function App() {
   };
 
   return (
-    <div className="App" style={{ marginBottom: '100px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)' }}>
+    <div className="App" >
       <TaskForm addTask={addTask} />
       <TaskList tasks={tasks} setTasks={setTasks} />
     </div>
