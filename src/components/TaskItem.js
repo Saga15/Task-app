@@ -1,6 +1,5 @@
 import React from 'react';
 import { Draggable } from 'react-beautiful-dnd';
-// import "./Style/TaskItem.css" ;
 import "../Style/TaskItem.css"
 
 function TaskItem({ task, index }) {

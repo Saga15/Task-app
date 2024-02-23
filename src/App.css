@@ -1,14 +1,10 @@
-
-
 * {
   box-sizing: border-box;
-  /* background-color: hsl(176, 8%, 61%); */
 }
 
 .App {
   display: flex;
-  width:90%;
-  /* justify-content: space-around; */
+  width: 90%;
   justify-content: center;
   margin: 30px;
 }
@@ -60,7 +56,6 @@ input {
   flex-direction: column;
   background-color: #18978f;
   height: 100%;
-  /* border: 3px solid #1b2430; */
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   width: 400px;
 }
